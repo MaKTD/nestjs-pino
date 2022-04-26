@@ -1,7 +1,7 @@
 {
-  "name": "@mktd/pino-nestjs",
+  "name": "@maktd/pino-nestjs",
   "version": "2.5.2",
-  "description": "Pino logger for NestJS",
+  "description": "Pino for NestJS",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -24,13 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/iamolegga/nestjs-pino.git"
   },
-  "keywords": [
-    "pino",
-    "nestjs",
-    "nest.js",
-    "nest",
-    "logger"
-  ],
+  "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
