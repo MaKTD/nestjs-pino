@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-pino",
+  "name": "@mktd/pino-nestjs",
   "version": "2.5.2",
   "description": "Pino logger for NestJS",
   "main": "index.js",
@@ -11,8 +11,7 @@
     "build": "tsc -p tsconfig.build.json",
     "example": "rimraf dist && tsc && LOG_LEVEL=debug node dist/example/main",
     "prepublishOnly": "npm run build && cp -r ./dist/* .",
-    "postpublish": "git clean -fd",
-    "postinstall": "node postinstall.js"
+    "postpublish": "git clean -fd"
   },
   "files": [
     "*.{js,d.ts}"
@@ -32,7 +31,7 @@
     "nest",
     "logger"
   ],
-  "author": "Oleg Repin <iamolegga@gmail.com> (http://github.com/iamolegga)",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/iamolegga/nestjs-pino/issues"
